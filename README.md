@@ -1,6 +1,8 @@
 # scraper
 how it works, don't ask
 
-req	: python 3
-	  scrapy
+Need :
+python 3
+scrapy
 
+scrapy crawl -a filename=url.txt -o name.csv
